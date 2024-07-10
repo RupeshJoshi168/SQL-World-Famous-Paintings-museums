@@ -14,25 +14,25 @@ In this project, we explored the famous paintings dataset from Kaggle to gain in
 ### 2. Data Ingestion and Database Setup:
 **Python Scripting**: Utilized Python to automate the process of reading data from CSV files.
 
-Database Integration: Leveraged Python's MySQL connector to establish a connection with a MySQL database.
+**Database Integration**: Leveraged Python's MySQL connector to establish a connection with a MySQL database.
 
-Table Creation: Created appropriate tables in the MySQL database to store the imported data, ensuring data integrity and normalization.
+**Table Creation**: Created appropriate tables in the MySQL database to store the imported data, ensuring data integrity and normalization.
 
 ### 3. Data Upload:
-CSV to MySQL: Uploaded the data from CSV files to the MySQL database tables using Python scripts, ensuring accurate data mapping and handling of any discrepancies.
+**CSV to MySQL**: Uploaded the data from CSV files to the MySQL database tables using Python scripts, ensuring accurate data mapping and handling of any discrepancies.
 
 ### 4. Data Analysis and Querying:
-SQL Queries: Formulated and executed over 19 SQL queries to address various analytical problems and extract meaningful insights from the dataset.
+**SQL Queries**: Formulated and executed over 19 SQL queries to address various analytical problems and extract meaningful insights from the dataset.
 
-Query Examples:
+**Query Examples**:
 Identified the most prolific artists based on the number of paintings in the dataset.
 Analyzed trends in painting styles and themes over different historical periods.
 Investigated the distribution of paintings across different geographical regions.
 Explored the relationship between painting sizes and their historical significance.
 
 ### 5. Tools and Technologies:
-Python: Used for scripting and automating data ingestion.
-MySQL: Employed for database management and query execution.
+**Python**: Used for scripting and automating data ingestion.
+**MySQL**: Employed for database management and query execution.
 
 ### 6. Outcome:
 The project successfully demonstrated the use of Python and SQL for managing and analyzing a large dataset of famous paintings. The insights derived from the SQL queries provided a deeper understanding of the dataset's characteristics and highlighted significant patterns and trends in the world of art.
