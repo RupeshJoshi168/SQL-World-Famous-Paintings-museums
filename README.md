@@ -2,7 +2,7 @@
 
 ### Project Description:
 
-In this project, we explored the famous paintings dataset from Kaggle to gain insights into various aspects of renowned artworks. The project involved several key steps and components, including data ingestion, database management, and query-based analysis.
+This project involved an in-depth exploration of the famous paintings dataset sourced from Kaggle. The primary objectives were to manage and analyze the data effectively, uncovering meaningful insights into various aspects of renowned artworks. The project encompassed data ingestion, database management and extensive SQL querying.
 
 ### Steps and Components:
 
