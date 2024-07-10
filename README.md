@@ -26,13 +26,17 @@ In this project, we explored the famous paintings dataset from Kaggle to gain in
 
 **Query Examples**:
 Identified the most prolific artists based on the number of paintings in the dataset.
+
 Analyzed trends in painting styles and themes over different historical periods.
+
 Investigated the distribution of paintings across different geographical regions.
+
 Explored the relationship between painting sizes and their historical significance.
 
 ### 5. Tools and Technologies:
 **Python**: Used for scripting and automating data ingestion.
+
 **MySQL**: Employed for database management and query execution.
 
-### 6. Outcome:
+## Outcome:
 The project successfully demonstrated the use of Python and SQL for managing and analyzing a large dataset of famous paintings. The insights derived from the SQL queries provided a deeper understanding of the dataset's characteristics and highlighted significant patterns and trends in the world of art.
