@@ -7,12 +7,15 @@ In this project, we explored the famous paintings dataset from Kaggle to gain in
 ### Steps and Components:
 
 ### 1. Data Acquisition and Preparation:
-Dataset Source: The famous paintings dataset was sourced from Kaggle.
-Data Files: The dataset comprised multiple CSV files containing information about famous paintings, such as titles, artists, years, and other relevant metadata.
+**Dataset Source**: The famous paintings dataset was sourced from Kaggle.
+
+**Data Files**: The dataset comprised multiple CSV files containing information about famous paintings, such as titles, artists, years, and other relevant metadata.
 
 ### 2. Data Ingestion and Database Setup:
-Python Scripting: Utilized Python to automate the process of reading data from CSV files.
+**Python Scripting**: Utilized Python to automate the process of reading data from CSV files.
+
 Database Integration: Leveraged Python's MySQL connector to establish a connection with a MySQL database.
+
 Table Creation: Created appropriate tables in the MySQL database to store the imported data, ensuring data integrity and normalization.
 
 ### 3. Data Upload:
@@ -20,6 +23,7 @@ CSV to MySQL: Uploaded the data from CSV files to the MySQL database tables usin
 
 ### 4. Data Analysis and Querying:
 SQL Queries: Formulated and executed over 19 SQL queries to address various analytical problems and extract meaningful insights from the dataset.
+
 Query Examples:
 Identified the most prolific artists based on the number of paintings in the dataset.
 Analyzed trends in painting styles and themes over different historical periods.
