@@ -22,6 +22,10 @@ SELECT * FROM museum
 WHERE CITY regexp '[0-9]';
 
 -- 6) Museum_Hours table has 1 invalid entry. Identify it and remove it.
+delete from museum_hours 
+where ctid not in (select min(ctid)
+from museum_hours
+group by museum_id, day );
 
 -- 7) Fetch the top 10 most famous painting subject
 SELECT s.work_id, s.subject FROM product_size p
