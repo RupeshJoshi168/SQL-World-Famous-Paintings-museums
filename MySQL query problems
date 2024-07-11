@@ -52,8 +52,7 @@ having count(1) = 7)
 
 select count(day_count) from cte1;
 
--- 10) Which are the top 5 most popular museum? (Popularity is 
--- defined based on most no of paintings in a museum)
+-- 10) Which are the top 5 most popular museum? (Popularity is defined based on most no of paintings in a museum)
 
 with cte1 as(
 select museum_id, count(work_id) as no_of_painintgs
@@ -119,8 +118,7 @@ group by artist_id, cnt
 having cnt_country>1
 order by cnt_country desc;
 
--- 15) Display the country and the city with most no of museums. 
--- Output 2 seperate columns to mention the city and country. 
+-- 15) Display the country and the city with most no of museums. Output 2 seperate columns to mention the city and country. 
 with cte1 as (
 select  country, city, count(city) as cnt
 FROM museum
@@ -134,9 +132,7 @@ FROM cte1)
 select * from cte2
 where drank=1;
 
--- 16) Identify the artist and the museum where the most expensive and 
--- least expensive painting is placed. Display the artist name, 
--- sale_price,painting name, museum name, museum city and canvas label
+-- 16) Identify the artist and the museum where the most expensive and least expensive painting is placed. Display the artist name, sale_price,painting name, museum name, museum city and canvas label.
 with cte as 
 		(select *
 		, rank() over(order by sale_price desc) as rnk
@@ -179,8 +175,7 @@ with cte as
 	where rnk <=3
 	or rnk > no_of_records - 3;
     
--- 19) Which artist has the most no of Portraits paintings outside USA?. 
--- 	Display artist name, no of paintings and the artist nationality.
+-- 19) Which artist has the most no of Portraits paintings outside USA?. Display artist name, no of paintings and the artist nationality.
 WITH CTE1 AS (
 	SELECT a.artist_id , a.style, m.country
 	from artist a
